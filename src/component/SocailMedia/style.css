@@ -1,0 +1,36 @@
+.socail{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.socail-box{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    color: white;
+    background-color: #498cbf;
+}
+.socail-box h1{
+    background-color: white;
+    width: 40px;
+    text-align: center;
+    margin-right: 5px;
+    color: #333;
+}
+.socail-box h3{
+    margin: 0;
+}
+.socail-box p{
+    margin: 0;
+    font-size: 20px;
+}
+.socail-box:first-child{
+background-color: #3b5998;
+}
+.socail-box:last-child{
+background-color: #cc2127;
+}

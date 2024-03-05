@@ -1,0 +1,46 @@
+.home{
+    background-image: url(./../../../public/images/Home/home-bg.jpg);
+    background-size: cover;
+    background-position:  center -175px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info{
+    text-align: center;
+    width: 60%;
+    margin: 100px auto;
+}
+.info h1 {
+    font-size: 60px;
+    color: #555;
+}
+
+.info h2{
+    font-size: 35px;
+    color: #eb5424;
+}
+.info p.head{
+    line-height: 1.5;
+    font-size: 20px;
+    color: #888;
+}
+.info p span{
+
+    color: black;
+}
+
+.btn{
+    background-color: #eb5424;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: #fff;
+    color: #eb5424;
+   
+}

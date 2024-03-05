@@ -1,0 +1,55 @@
+.contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contact .pp{
+    font-size: 60px;
+}
+.contact p:first-child span{
+    font-weight: bold;
+}
+
+.form{
+    width: 800px;
+}
+form input{
+    margin-bottom: 10px;
+    outline: none;
+    height: 30px;
+    padding:10px;
+    border:1px solid #ccc;
+
+}
+form input:first-of-type{
+    margin-right: 10px;
+}
+form input:first-of-type,
+form input:nth-of-type(2){
+    width: calc(50% - 5px);
+    
+}
+
+form input:last-of-type{
+    width: 100%;
+
+    
+}
+form textarea{
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border:1px solid #ccc;
+    background-color: #ccc;
+}
+button{
+   background-color: #fff;
+   border: none;
+   border:1px solid #ccc;
+   width: 60%;
+   padding: 5px 0;
+   color: #888;
+}

@@ -1,0 +1,41 @@
+
+.work .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 100px;
+    
+}
+.container .title{
+    font-size: 60px;
+    width: 100%;
+    text-align: start;
+    margin-bottom: 30px;
+}
+.container .title span{
+    font-weight: bold;
+}
+.contnet{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: calc(95% / 3);
+    border: 1px solid #999;
+    text-align: center;
+    padding:90px 0;
+    box-shadow: 0px 0px 1px #888 inset;
+
+}
+
+
+.box h2{
+    color: #eb5424;
+    border-bottom: 1px solid #888;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.box p{
+    color: #888;
+}

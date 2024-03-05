@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    justify-content: end;
+    background-image: url(./../../../public/images/creative/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about div{
+    width: 40%;
+    margin-right: 10%;
+
+}
+.about div .p{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about div .p span{
+    font-weight: bold;
+}
+.about h1{
+    
+    color:#eb5424;
+}
